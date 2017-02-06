@@ -27,7 +27,6 @@ int main() {
 
 	Entity cat;
 	cat.name = "cat";
-	cat.addComponent(new HealthComponent());
 	cat.addComponent(new PositionComponent());
 	entities.push_back(cat);
 
